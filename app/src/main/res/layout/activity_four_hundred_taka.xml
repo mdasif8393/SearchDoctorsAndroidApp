@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1.  Dr. Abdulla Al Mamun\n\n
+Degree: B.D.S\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery\n\n
+Designation:\n\n
+Chamber Address: Rokeya Dental Care, 7/1, South Central Road, Khulna\n\n
+Contact Number: +8801798876944\n\n
+Visiting Hour: Saturday to Monday 5 Pm-9 Pm Wednesday to Thursday\n\n
+Fee: 400 Taka
+
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2.  Dr. Monika Rani Shaha\n\n
+Degree: M.B.B.S, FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician  Surgeon\n\n
+Designation: Medical Officer\n\n
+Chamber Address: Nirala Diagnostic Center, 269 T.M.T Tower, Sher-E-Bangla Road, Nerala, Khulna\n\n
+Contact Number: +8801719137851\n\n
+Visiting Hour: 5 pm to 7 pm\n\n
+Fee: 400 Taka
+
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3.  Dr. Bani Saha\n\n
+Degree: MBBS, EOC, Training – M.P.H (Bangkok, Thailand)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician  Surgeon\n\n
+Designation:\n\n
+Chamber Address: New Scholar Diagnostic and Consultation Center, 272, Sher-E-Bangla Road, Nirala Border, Khulna.\n\n
+Contact Number: +8801716703832\n\n
+Visiting Hour: 3 Pm to 7 Pm\n\n
+Fee: 400 Taka
+
+" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

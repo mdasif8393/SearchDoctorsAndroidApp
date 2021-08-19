@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. Masud Ahmed\n\n
+Degree: MBBS, BCS, MS (Urology)\n\n
+Department: Urology\n\n
+Specialty: Urology Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Mofizuddin (Shoel)\n\n
+Degree: MBBS, MS (Urology)\n\n
+Department: Urology\n\n
+Specialty: Urology Specialist\n\n
+Designation:\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. Masum Ahmed\n\n
+Degree: MBBS, FCPS (Surgery), MS(Urology)\n\n
+Department: Urology\n\n
+Specialty: Urology\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour:\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Anup Roy Chowdhary\n\n
+Degree: MBBS, MS (Urology) (BSMMU)\n\n
+Department: Nephrology\n\n
+Specialty: Nephrology Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Labcon Diagnostic Center, 63, Ahasan Ahmed Road, Khulna\n\n
+Contact Number: +8801779939990\n\n
+Visiting Hour: Thursday and Friday\n\n
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5. Dr. A.S.M. Humayun Kabir (Opu)\n\n
+Degree: MBBS, BCS (Health), MS (Urology)\n\n
+Department: Urology\n\n
+Specialty: Urology Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6. Dr. Nazmul Haque\n\n
+Degree: MBBS, FCPS (surgery), MS-(Urology)\n\n
+Department: Nephrology\n\n
+Specialty: Nephrology Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Khulna Surgical and Medical Hospital Ltd, A 19-21 Majid Sarani, Sonadanga, Khulna\n\n
+Contact Number: +8801914020726\n\n
+Visiting Hour: 4:00pm-7pm (closed Friday)\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7. Dr. Md. Yaser Arafat\n\n
+Degree: MBBS, FCPS(surgery) MS(Urology)\n\n
+Department: Neurology\n\n
+Specialty: Nephrology Specialist\n\n
+Designation:\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+8. Dr. Md. Zahid Hussain\n\n
+Degree: MBBS, MS ( Urology)\n\n
+Department: Nephrology\n\n
+Specialty: Nephrology Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801716951872\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

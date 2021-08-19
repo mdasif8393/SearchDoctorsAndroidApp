@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. Mohammad Mohiuddin\n\n
+Degree: MBBS, MS (Surgery)\n\n
+Department: Surgery\n\n
+Specialty: Surgery Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour:\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Md. Rafiqul Islam\n\n
+Degree: MBBS, MCPS (SURGERY), FCPS( Surgery)\n\n
+Department: Surgery\n\n
+Specialty: General Surgery Specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour:\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. S.M. Golam Azam\n\n
+Degree: MBBS, MS(Surgery)\n\n
+Department: Surgery\n\n
+Specialty: General Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Showkat Ali\n\n
+Degree: MBBS, FCPS (Surgery)\n\n
+Department: Orthopedics\n\n
+Specialty: General Surgery Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 500 TK
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5. Dr. Syed Mozammel Hossain\n\n
+Degree: MBBS, FCPS (Surgery)\n\n
+Department: Surgery\n\n
+Specialty: Surgery Specialist\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6. Dr. Fatema Akhter\n\n
+Degree: MBBS, FCPS (Surgery)\n\n
+Department: Surgery\n\n
+Specialty: Surgery Specialist\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7. Dr. Sha Raihanur Rahman\n\n
+Degree: MBBS, FCPS, MRCM\n\n
+Department: Surgery\n\n
+Specialty: Surgery Specialist\n\n
+Designation:\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+8. Dr. Sk Nishat Abdullah\n\n
+Degree: FCPS( Surgery), FCPS ( Plastic and Re Constrictive) Surgery\n\n
+Department: Surgery\n\n
+Specialty: Plastic Surgry Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 2.30 PM TO 3.30 PM\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+9. Dr. Tarikul Islam\n\n
+Degree: MBBS, FCPS (Surgery) MS (Plastic Surgery)\n\n
+Department: Surgery\n\n
+Specialty: Plastic and Cosmetic Surgry\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour: 5.00PM TO 7.00PM\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+10. Dr. Jafor Ullah\n\n
+Degree: MBBS, FCPS (Surgery)\n\n
+Department: Surgery\n\n
+Specialty: General Surgery Specialist\n\n
+Designation: Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+11. Dr. Sheikh Saidul Haque\n\n
+Degree: FCPS (Surgery), FRCS (Glasgow)\n\n
+Department: Surgery\n\n
+Specialty: Glasgow specialist\n\n
+Designation: Professor\n\n
+Chamber Address: Doctors Point Specialized Hospital 49, KDA Avenue, Sadar, Khulna\n\n
+Contact Number: +8801795383802\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+
+" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

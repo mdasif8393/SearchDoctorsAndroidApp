@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. Saiful Arefin\n\n
+Degree: M.B.B.S, P.G.T (Child) PGPN (Boston) USA\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Medical Officer\n\n
+Chamber Address: J.B. Pharmacies, Notun Rasta, B.I.D.C Road, Khalishpur, Khulna\n\n
+Contact Number: +8801745-538953\n\n
+Visiting Hour: 5 pm to 10 pm\n\n
+Fee: 300 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Sk. Munir Ahamed\n\n
+Degree: MBBS, PGT (Child), PGPN (USA)\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Senior Medical Officer\n\n
+Chamber Address: Labcon Diagnostic Center, 63, Ahasan Ahmed Road, Khulna\n\n
+Contact Number: +8801911646119\n\n
+Visiting Hour: 2.30 pm to 3.30 pm Closed On Friday\n\n
+Fee: 300 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. Esrat Jahan\n\n
+Degree: MBBS\n\n
+Department: Gynecology\n\n
+Specialty: Gynecologist\n\n
+Designation: Medical Officer\n\n
+Chamber Address: Hamim Medical Hal, Khalishur Hamim Medical Hal, Khalishur\n\n
+Contact Number: +8801754807666\n\n
+Visiting Hour: 5.00 pm to 8.00 pm\n\n
+Fee: 300 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Monika Rani Shaha\n\n
+Degree: M.B.B.S, FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Medical Officer\n\n
+Chamber Address: Nirala Diagnostic Center, 269 T.M.T Tower, Sher-E-Bangla Road, Nerala, Khulna\n\n
+Contact Number: +8801719137851\n\n
+Visiting Hour: 5 pm to 7 pm\n\n
+Fee: 400 Taka
+
+" />   <TextView
+        android:background="@drawable/textviewshape"
+        android:layout_margin="30px"
+        android:padding="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#A52A2A"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:text="
+5. Dr. Khan Omor Faruk\n\n
+Degree: MBBS, BHS, PGT (ENT)\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist\n\n
+Designation: Medical Officer\n\n
+Chamber Address: Star Diagnostic and Consultation Center, 21, Shamsur Rahman Road, (East of Shantihadham Border) Khulna\n\n
+Contact Number: +8801992725527\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6. Dr Jotirmoy Sarkar\n\n
+Degree: M.B.B.S (Dhaka) B.C.S (Health) D-Ortho\n\n
+Department: Rheumatology\n\n
+Specialty: Rheumatology Specialist\n\n
+Designation: Medical Officer\n\n
+Chamber Address: United Diagnostic and Consultation Center, 3, South Central Road, Khulna (Opposite government Pioneer Women’s College)\n\n
+Contact Number: +8801775556100\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

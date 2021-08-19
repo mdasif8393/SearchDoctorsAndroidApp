@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. M Amdadul Haque\n\n
+Degree: MBBS, D-Card, MCPSS(Medicine), FRSH (london)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology, Medicine\n\n
+Designation: Professor\n\n
+Chamber Address: Gazi Medical College Hospital, A.19-21 Mojid Sarani, Sonadanga Khulna\n\n
+Contact Number: +8801741857772\n\n
+Visiting Hour: 9.00 am to 3.00 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Panchonon Moholy\n\n
+Degree: MBBS, MD (Int Medicine)\n\n
+Department: Skin\n\n
+Specialty: Dermatology, Allergology, Sex, Integrated Medicine\n\n
+Designation:\n\n
+Chamber Address: Care Digital Diagnostic and Consultation Center, 30, Shamsur Rahman Road (Shanthamham Border), Khulna.\n\n
+Contact Number:\n\n
+Visiting Hour: +8801710778606\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. Panchonon Moholy\n\n
+Degree: MBBS, MD (Int Medicine)\n\n
+Department: Skin\n\n
+Specialty: Dermatology, Allergology, Sex, Integrated Medicine\n\n
+Designation:\n\n
+Chamber Address: Care Digital Diagnostic and Consultation Center, 30, Shamsur Rahman Road (Shanthamham Border), Khulna.\n\n
+Contact Number:\n\n
+Visiting Hour: +8801710778606\n\n
+Fee: 500 Taka
+
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Panchonon Moholy\n\n
+Degree: MBBS, MD (Int Medicine)\n\n
+Department: Skin\n\n
+Specialty: Dermatology, Allergology, Sex, Integrated Medicine\n\n
+Designation:\n\n
+Chamber Address: Care Digital Diagnostic and Consultation Center, 30, Shamsur Rahman Road (Shanthamham Border), Khulna.\n\n
+Contact Number:\n\n
+Visiting Hour: +8801710778606\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5. Dr. M.M. Abdus Shamim\n\n
+Degree: MBBS, MD (Cardialogy), CCD(Bardem)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology, Medicine\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Fortis Escorts Heart Institute, A-17, Majid Sarani, Sonadanga, Khulna\n\n
+Contact Number: +01741857772\n\n
+Visiting Hour: 9.00 am to 3.00 pm and 5.00 pm to 7.00 pm (Closed on Thursday and Friday)\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6. Dr. M.M. Abdus Shamim\n\n
+Degree: MBBS, MD (Cardialogy), CCD(Bardem)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology, Medicine\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Fortis Escorts Heart Institute, A-17, Majid Sarani, Sonadanga, Khulna\n\n
+Contact Number: +01741857772\n\n
+Visiting Hour: 9.00 am to 3.00 pm and 5.00 pm to 7.00 pm (Closed on Thursday and Friday)\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7. Dr. M A Hannan\n\n
+Degree: MBBS (Dhaka), D.T.M and H(Bangkok)\n\n
+Department: Medicine\n\n
+Specialty: Medicine\n\n
+Designation: Consultant\n\n
+Chamber Address: Garib Newaz Clinic, 302, K.D.A Avenure, Khulna\n\n
+Contact Number: +8801711295460\n\n
+Visiting Hour: Saturday to Thursday: 10:00 am To 02:00 pm and 06:00 pm To 08:00 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+8. Dr. Farjana Kabir\n\n
+Degree: MBBS (Dhaka), FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine\n\n
+Designation:\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +88017910507705\n\n
+Visiting Hour: 6.00 pm to 8.00 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+9. Dr. Goutam Kumar Mondol\n\n
+Degree: MBBS, BCS (Health), FCPS ( Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation:\n\n
+Chamber Address: Doctor’s Lab and Imaging Center, Khulna\n\n
+Contact Number: +8801740750740\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+10. Dr. Utpol Kumar Chandro\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Endocrinology\n\n
+Specialty: Medicine, Diabetes , Cardiology, Thyroid\n\n
+Designation: Consultant\n\n
+Chamber Address: United Diagnostic and Consultation Center, 3, South Central Road, Khulna (Opposite government Pioneer Women’s College)\n\n
+Contact Number: +8801772473060\n\n
+Visiting Hour: 4 Pm to 9 Pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+11. Dr. MD. Nazrul Islam\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+12. Dr. MD. Nazrul Islam\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+13. Dr. Md. Abdul Wadud\n\n
+Degree: MBBS, BCS(Health), MD(Gastroenterology)\n\n
+Department: Medicine\n\n
+Specialty: Gastroenterology Specialist\n\n
+Designation:\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+14. Dr. MD. Forhadul Islam (Tuhin)\n\n
+Degree: MBBS, BCS (Health), FCPS (Medicine), MACP (USA), MD (Neurology-Course)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation:\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+15. Dr. Paritosh Kumar Ray\n\n
+Degree: MBBS, FCPS (MEDICINE), D-CARD (DU)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology, Medicine\n\n
+Designation: Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801985547094\n\n
+Visiting Hour: 2.00 pm to 4. pm Saturday To Thursday\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+16. Dr. S. M. Jahid\n\n
+Degree: MBBS, DCH, MD( Neuro-Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation:\n\n
+Chamber Address: CT Imaging Center Ltd, Khulna\n\n
+Contact Number: +8801711297563\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+17. Dr. Md. Shofiqujjaman Siddiki\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Medipath Diagnostic, Consultation Center and Clinic, Khulna\n\n
+Contact Number:\n\n
+Visiting Hour: Saturday to Thursday : 02:00 pm To 03:00 pm and 06:00 pm To 08:30 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+18. Dr. Md. Sirajul Islam\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +8801711298607\n\n
+Visiting Hour: Saturday to Thursday : 04:00 pm To 09:00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+19. Dr. Shoilendra Nath Biswas\n\n
+Degree: MBBS (Dhaka), BCS (Health), FCPS (Medicine), CCD (Diabetology)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation:\n\n
+Chamber Address: Top Choice Diagnostic Center, Khulna\n\n
+Contact Number: +8801711275480\n\n
+Visiting Hour: 03:00 pm To 06:00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+20. Dr. M. A. Latif\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: 139, Sher-e-Bangla Road, Moilapota Mor, Khulna\n\n
+Contact Number: +8801674625305\n\n
+Visiting Hour: Saturday to Thursday : 10:00 am To 01:00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+21. Dr. Pritish Tarofdar\n\n
+Degree: MBBS, BCS (Health) FCPS (Medicine)\n\n
+Department: Rheumatology\n\n
+Specialty: Medicine, Rheumatology, Cardiology\n\n
+Designation:\n\n
+Chamber Address: Fatima Hospital and Diagnostic Center, 302, Khanjahan Ali Road, Royal Road, Khulna\n\n
+Contact Number: +8801977255617\n\n
+Visiting Hour: 3.00PM TO 7.00PM\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+22. Dr. Utpal Kumar Chandra\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Rheumatology\n\n
+Specialty: Medicine, Cardiology, Rheumatology, Diabetes\n\n
+Designation:\n\n
+Chamber Address: Fatima Hospital and Diagnostic Center, 302, Khanjahan Ali Road, Royal Road, Khulna\n\n
+Contact Number: +8801909141532\n\n
+Visiting Hour: 4.00PM TO 8.00PM Closed on Friday\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+23. Dr. Debasis Kumar Ghosh\n\n
+Degree: MBBS, BCS (Health), FCPS (Medicine), MRCP (England) Pasas, MD\n\n
+Department: Endocrinology\n\n
+Specialty: Medicine, Diabetes, Hormones\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Fatima Hospital and Diagnostic Center, 302, Khanjahan Ali Road, Royal Road, Khulna\n\n
+Contact Number: +8801992219907\n\n
+Visiting Hour: 3.00PM TO 5.00PM Closed on Friday\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+24. Dr. M Emdadul Haq\n\n
+Degree: MBBS, D-Card(D-U), MCPS(Medicine), FRSH(London), Deploma In-Eyazma Module (UK)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology, Medicine Specialist\n\n
+Designation: Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour:\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+25. Dr. Sonchoy Kumar Biswas\n\n
+Degree: MBBS, BCS, MCPS, MD (Chest)\n\n
+Department: Medicine\n\n
+Specialty: Pulmonary Medicine\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour:\n\n
+Fee: 700 Taka
+
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+26. Dr. S M Abdul Awal\n\n
+Degree: MBBS, BCS (Health), MD (Neurology)\n\n
+Department: Medicine\n\n
+Specialty: Neuro Medicine specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour:\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+27. Dr. Sheikh Abdullah Al Mamun\n\n
+Degree: MBBS, BCS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Doctors Point Specialized Hospital 49, KDA Avenue, Sadar, Khulna\n\n
+Contact Number: +8801913607805\n\n
+Visiting Hour:\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+28. Dr. Jafor Sadik\n\n
+Degree: MBBS, BCS (Health), FCPS( Physical and Rehabilitation)\n\n
+Department: Orthopedics\n\n
+Specialty: Medicine, Orthopedics\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +8801711298607\n\n
+Visiting Hour:\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+29. Dr. S.M. Abdul Ohab\n\n
+Degree: MBBS, MACP, MD (Cardiology)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology, Medicine\n\n
+Designation: Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801999099099\n\n
+Visiting Hour: 9.00 am to 2.00 pm\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+30. Dr Bishojit Basu\n\n
+Degree: MBBS, BCS (Health), D-Card (DU)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology, Medicine\n\n
+Designation: Professor\n\n
+Chamber Address: Labcon Diagnostic Center, 63, Ahasan Ahmed Road, Khulna\n\n
+Contact Number: +8801707080462\n\n
+Visiting Hour: 3.00 pm to 5.00 pm (Closed on Friday)\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+31. Dr. Md. Mizanur Rahman\n\n
+Degree: MBBS, FCPS (Medicine), MD (Cardiology), FRCP, FACC, FESC, FCCP, FACP\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology, Medicine\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: 2/3, Babukhan road, Khulna 9100 (Side of Azom Khan commerce college), Khulna\n\n
+Contact Number: +8801711298696\n\n
+Visiting Hour: 5pm-8pm and 9am-12am (Friday)\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+32. Dr. Pritish Torofdar\n\n
+Degree: MBBS, BCS (Health), FCPS (Medicine), MCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation:\n\n
+Chamber Address: : Astha diagnostic and Consultation Center, Khulna.\n\n
+Contact Number: +8801715212327\n\n
+Visiting Hour: Saturday to Thursday: 04:00 pm To 08:00 pm\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+33. Dr. Sheikh Amir Hossain\n\n
+Degree: FCPS, MACP, DTCD\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist, Chest Specialist\n\n
+Designation: Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +8804173913\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+34. Dr. Shahabuddin Mohammad Mujtaba\n\n
+Degree: MBBS, DPM\n\n
+Department: Medicine\n\n
+Specialty: Psychiatric\n\n
+Designation: Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: : +88041733913\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+35. Dr. S.M. Kamal\n\n
+Degree: MBBS, FCPS-MEDICINE, FRCP(ADN), DTCD, FACP\n\n
+Department: Medicine\n\n
+Specialty: Chest Specialist, Medicine\n\n
+Designation: Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 2.00 pm to 4.00 pm\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+36. Dr. Md Khosrul Alam\n\n
+Degree: MBBS, MCPS (Medicine), MD (Pulmonary Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Pulmonary Medicine\n\n
+Designation: Pulmonary Medicine\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: : +8801989995021\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+37. Dr. Abdul Halim Sarder\n\n
+Degree: MBBS, MD, Neurology (BSMU)\n\n
+Department: Neuromedicine\n\n
+Specialty: Neuromedicine Specialist\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+
+" />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

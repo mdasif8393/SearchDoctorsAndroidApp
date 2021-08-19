@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr Jotirmoy Sarkar\n\n
+Degree: M.B.B.S (Dhaka) B.C.S (Health) D-Ortho\n\n
+Department: Rheumatology\n\n
+Specialty: Rheumatology Specialist\n\n
+Designation: Medical Officer\n\n
+Chamber Address: United Diagnostic and Consultation Center, 3, South Central Road, Khulna (Opposite government Pioneer Women’s College)\n\n
+Contact Number: +8801775556100\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 600 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Pritish Tarofdar\n\n
+Degree: MBBS, BCS (Health) FCPS (Medicine)\n\n
+Department: Rheumatology\n\n
+Specialty: Medicine, Rheumatology, Cardiology\n\n
+Designation:\n\n
+Chamber Address: Fatima Hospital and Diagnostic Center, 302, Khanjahan Ali Road, Royal Road, Khulna\n\n
+Contact Number: +8801977255617\n\n
+Visiting Hour: 3.00PM TO 7.00PM\n\n
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. Md. Josim Uddin\n\n
+Degree: MBBS, D-Otho\n\n
+Department: Rheumatology\n\n
+Specialty: Rheumatology, Orthopedics\n\n
+Designation:\n\n
+Chamber Address: Care Digital Diagnostic and Consultation Center, 30, Shamsur Rahman Road (Shanthamham Border), Khulna.\n\n
+Contact Number: +8801710778606\n\n
+Visiting Hour: 5.00 pm to 8.00 pm\n\n
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Utpal Kumar Chandra\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Rheumatology\n\n
+Specialty: Medicine, Cardiology, Rheumatology, Diabetes\n\n
+Designation:\n\n
+Chamber Address: Fatima Hospital and Diagnostic Center, 302, Khanjahan Ali Road, Royal Road, Khulna\n\n
+Contact Number: +8801909141532\n\n
+Visiting Hour: 4.00PM TO 8.00PM Closed on Friday\n\n
+Fee: 700 Taka
+" />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

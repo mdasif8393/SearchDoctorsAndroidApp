@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. Mithun Paul\n\n
+Degree: MBBS, DLO\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: : Gazi Medical College Hospital, A.19-21 Mojid Sarani, Sonadanga Khulna\n\n
+Contact Number: +8801681305062\n\n
+Visiting Hour: 9.00AM TO 2.00PM Friday Close\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Kaji Abu Rashed\n\n
+Degree: MBBS (DU), BCS (Health), DLO (BSMU)\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist\n\n
+Designation:\n\n
+Chamber Address: Badshah Mia Memorial Clinic and Diagnostic, Khulna\n\n
+Contact Number: +88041724497\n\n
+Visiting Hour: Saturday to Thursday 05:00 pm To 08:00 pm\n\n
+Fee: 600 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. Khan Omor Faruk\n\n
+Degree: MBBS, BHS, PGT (ENT)\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist\n\n
+Designation: Medical Officer\n\n
+Chamber Address: Star Diagnostic and Consultation Center, 21, Shamsur Rahman Road, (East of Shantihadham Border) Khulna\n\n
+Contact Number: +8801992725527\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Md. Shahadat Hossain\n\n
+Degree: MBBS (Dhaka), BCS (Health), PGT (ENT)\n\n
+Department: ENT\n\n
+Specialty: ENT Speciaist\n\n
+Designation:\n\n
+Chamber Address: Anowara Clinic and Diagnostic, Khulna\n\n
+Contact Number:\n\n
+Visiting Hour: Saturday to Wednesday 01:00 pm To 03:00 pm\n\n
+Fee: 600 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5. Dr. R K Nath\n\n
+Degree: MBBS, FCPS (ENT)\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist\n\n
+Designation:\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6. Dr. Md. Mahmudul Haque\n\n
+Degree: MBBS, BCS (Health), FCPS\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +8801711298607\n\n
+Visiting Hour: 6.30PM TO 8.00PM\n\n
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7. Dr. Major Muhammod Saleh Akram\n\n
+Degree: MBBS (AFMC), DLO (BUP), FCPS (ENT)\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist and Surgeon\n\n
+Designation:\n\n
+Chamber Address: National Hospital and Diagnostic Center (Tutpara Kobor Khana Mor), Khulna\n\n
+Contact Number:\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+8. Dr. Sheikh Motiar Rahman\n\n
+Degree: MBBS, DLO (DU)\n\n
+Department: ENT\n\n
+Specialty: ENT\n\n
+Designation: Consultant\n\n
+Chamber Address: Garib Newaz Clinic, 302, K.D.A Avenure, Khulna\n\n
+Contact Number: +8801715292222\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+9. Dr. H K Pal (Bivash)\n\n
+Degree: MBBS, BCS (Health), FCPS (ENT), MS (ENT)\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist, Head Neck Surgery\n\n
+Designation:\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+10. Dr. Mohammad Mohsin\n\n
+Degree: MBBS, MSC (ENT) England\n\n
+Department: ENT\n\n
+Specialty: ENT\n\n
+Designation: Professor\n\n
+Chamber Address: Astha diagnostic and Consultation Center, Khulna.\n\n
+Contact Number: +8801715212327\n\n
+Visiting Hour: Saturday to Thursday 12:00 pm To 02:00 pm and 05:00 pm To 09:00 pm\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+11. Dr. S K Bollov\n\n
+Degree: ENT\n\n
+Department: ENT Speciaist, Head and Neck Surgeon\n\n
+Specialty:\n\n
+Designation: Professor\n\n
+Chamber Address: Top Choice Diagnostic Center, 37, Samsur Rahman Road, Khulna\n\n
+Contact Number: +8801720500437\n\n
+Visiting Hour: Saturday to Thursday 11:00 am To 01:00 pm and 06:00 pm To 08:00 pm\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+12. Dr. MD. Kamruzzaman\n\n
+Degree: MBBS, FCPS, MS (ENT)\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist\n\n
+Designation: Associate Professor\n\n
+Chamber Address: 10 Fire Bridged road (Govt. pioneer college-এর পূর্ব পাশে), Khulna\n\n
+Contact Number: +8801921919109\n\n
+Visiting Hour: 5 pm – 8 pm\n\n
+Fee: 1000 Taka
+" />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

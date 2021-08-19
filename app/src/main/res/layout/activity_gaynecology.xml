@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. Afroza Akhter\n\n
+Degree: MBBS, BCS(Health), DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Medicare diagnostic centre, Moulobhi para, Khulna\n\n
+Contact Number: +8801751589883\n\n
+Visiting Hour: 5 Pm to 8 Pm Friday Closed\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Salina Yasmin\n\n
+Degree: MBBS, Training – C.M.U\n\n
+Department: Gynecology\n\n
+Specialty: Gynecology\n\n
+Designation:\n\n
+Chamber Address: Shapla Clinic 29, Sher-E-Bangla Road, Moylaputa, Khulna\n\n
+Contact Number: +8801624826650\n\n
+Visiting Hour: 8 am to 12 pm and 5 pm to 9 pm\n\n
+Fee: 300 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. Bani Saha\n\n
+Degree: MBBS, EOC, Training – M.P.H (Bangkok, Thailand)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation:\n\n
+Chamber Address: New Scholar Diagnostic and Consultation Center, 272, Sher-E-Bangla Road, Nirala Border, Khulna.\n\n
+Contact Number: +8801716703832\n\n
+Visiting Hour: 3 Pm to 7 Pm\n\n
+Fee: 400 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Monika Rani Shaha\n\n
+Degree: M.B.B.S, FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Medical Officer\n\n
+Chamber Address: Nirala Diagnostic Center, 269 T.M.T Tower, Sher-E-Bangla Road, Nerala, Khulna\n\n
+Contact Number: +8801719137851\n\n
+Visiting Hour: 5 pm to 7 pm\n\n
+Fee: 400 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5. Dr. Dilshad Jahan\n\n
+Degree: M.B.B.S, PGT (Guinea and Termination) H.M.O (X-Ray)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation:\n\n
+Chamber Address: Bokul Villa Chamber Address: 102/2, South Central Road, Beilen (Doctor Lane Khulna)\n\n
+Contact Number: +8801713423263\n\n
+Visiting Hour: 10.00 am to 2.00 pm 6.00 pm to 9.00 pm (Friday Close)\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6. Dr. Nishat Sultana\n\n
+Degree: MBBS, DGO, FCPS (Gynecology), Special training in the treatment of infertility (PG)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Insaf Nursing Home and Diagnostic, Khulna\n\n
+Contact Number: +8801984459755\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7. Dr. Naznin NaharDr. Naznin Nahar\n\n
+Degree: MBBS, DGO, FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Gazi Medical College Hospital, A.19-21 Mojid Sarani, Sonadanga Khulna\n\n
+Contact Number: +8801797074628\n\n
+Visiting Hour: 9 am to 1 pm and 5 pm to 10 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+8. Dr. Ismatara Bina\n\n
+Degree: MD (hon’s) Russia, DGO, MCPS, FCPS (Obs and Gynae), MRCOG (London)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Khalishpur Clinic and Diagnostic Complex, House No. 41, Road 101, Khalishpur, Khulna\n\n
+Contact Number: +88041761637\n\n
+Visiting Hour: 9.00 am to 1.00 pm and 5.00 pm to 7.00 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+9. Dr. Farhana Hoque\n\n
+Degree: MBBS (Dhaka), DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation:\n\n
+Chamber Address: 21/1, Ba. K. Ray Road, Sheakpara, khulna\n\n
+Contact Number: +8801682185083\n\n
+Visiting Hour: 5 Pm to 7 Pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+10. Dr. Tahmina Khatun\n\n
+Degree: MBBS, MCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Junior Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+11. Dr. Mukti Kaniz Fatema (Papri)\n\n
+Degree: MBBS, BCS (Health), FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Labcon Diagnostic Center, 63, Ahasan Ahmed Road, Khulna\n\n
+Contact Number: +8801779939990\n\n
+Visiting Hour: 2.00 pm to 3.00 pm and 6.30 pm to 9.00 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+12. Dr. Fouzia Begum\n\n
+Degree: MBBS, FCPS (Gainee and position)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801908959613\n\n
+Visiting Hour: 2.30 pm to 5.30 pm (Closed on Friday)\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+13. Dr. Anjuman Ara\n\n
+Degree: MBBS, MCPS, DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801999099099\n\n
+Visiting Hour: 5.00 pm to 8.00 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+14. Dr. Razia Parvin\n\n
+Degree: MBBS, FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation:\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801999099099\n\n
+Visiting Hour: 5.00 pm to 8.00 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+15. Dr. Farhana Haque\n\n
+Degree: MBBS, BCS (Health) DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation:\n\n
+Chamber Address: Star Diagnostic and Consultation Center, 21, Shamsur Rahman Road, (East of Shantihadham Border) Khulna\n\n
+Contact Number: +8801928751746\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+16. Dr. Mettel-Ebna-Islam\n\n
+Degree: MBBS, DGO, FCPS (Obs and Gynecology)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Surgeons\n\n
+Chamber Address: Care Digital Diagnostic and Consultation Center, 30, Shamsur Rahman Road (Shanthamham Border), Khulna.\n\n
+Contact Number: +8801710778606\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+17. Dr. Sonkor Prashd Biswas\n\n
+Degree: MBBS, DGO, FCPS (Gynecology)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Garib Newaz Clinic, 302, K.D.A Avenure, Khulna\n\n
+Contact Number: +8801711356553\n\n
+Visiting Hour: Saturday to Thursday 9.00 am to 5.00 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+18. Dr. Doli Halder\n\n
+Degree:\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation:\n\n
+Chamber Address: Fatima Hospital and Diagnostic Center, 302, Khanjahan Ali Road, Royal Road, Khulna\n\n
+Contact Number: +8801909141532\n\n
+Visiting Hour: 4.00 pm to 6.00 pm (Closed on Friday)\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+19. Dr. Nasrin Kabir\n\n
+Degree: MBBS, DGO, FCPS(Gyne)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: 2.00 pm to 4.00pm and 6.00 pm to 8.00 pm (Closed on Friday)\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+20. Dr. Amina Jannat Piya\n\n
+Degree: MBBS, MCPS(Obs and Gyne), FCPS(Obs and Gyne)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Gazi Medical College Hospital, A.19-21 Mojid Sarani, Sonadanga Khulna\n\n
+Contact Number: +8801797074625\n\n
+Visiting Hour: 9.00 am to 2.00 pm and 5.00 pm to 7.00 pm (Closed on Friday)\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+21. Dr. Jannatul Ferdous Jesmin\n\n
+Degree: MBBS, DGO, FCPS (OBS and Gynae)\n\n
+Department: Gynecology\n\n
+Specialty: Gynecology Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+22. Dr. Mahfuja Ferdous\n\n
+Degree: MBBS, DGO(OBS and Gynae)\n\n
+Department: Gynecology\n\n
+Specialty: Gynecologist\n\n
+Designation: Consultant\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+23. Dr. IV Nasrin\n\n
+Degree: MBBS, FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynecology Specialist\n\n
+Designation:\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+24. Dr. Shamima Jahan Sathi\n\n
+Degree: MBBS, PGD\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation:\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+25. Dr. Shahana Razzaq\n\n
+Degree: MBBS, MCPS, DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 4.00 pm to 5.30 pm and 4.00 pm to 9.00 pm (Only Friday)\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+26. Dr. Razia Parvin\n\n
+Degree: MBBS, FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation:\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801999099099\n\n
+Visiting Hour: 5.00 pm to 8.00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+27. Dr. Sanjida Huda Sweety\n\n
+Degree: MBBS, BCS (Health), FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Garib Newaz Clinic, 302, K.D.A Avenure, Khulna\n\n
+Contact Number: +8801795365715\n\n
+Visiting Hour: 2.00 pm to 4.00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+28. Dr. Dipika Mondal\n\n
+Degree: MBBS, DGO, MCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation:\n\n
+Chamber Address: Prime Clinic and Diagnostic Center Road no. 18, House No-357, Nirala (Opposition Tabligh Mosque), Khulna\n\n
+Contact Number: +8801977191833\n\n
+Visiting Hour: 1 Pm to 2.30 Pm and 5 Pm to 9 Pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+29. Dr. Mafuja Ferdaus\n\n
+Degree: MBBS, DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +8801711298607\n\n
+Visiting Hour: 9.00 am to 1.00 pm and 3.00 pm 5.00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+30. Dr. Nayar Islam(Bindu)\n\n
+Degree: MBBS, MCPS (Gynae) FCPS (Gynae), Diploma In Reproductive Health ( Lund University, Sweden)\n\n
+Department: Gynecology\n\n
+Specialty: Gynecology Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+31. Dr. Afroza Khanam\n\n
+Degree: MBBS, MCPS(Gynae-Obs), DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Shekorh Prosuti Sheba, 19 Ahasan Ahamed Road, Khulna\n\n
+Contact Number: +8801762476098\n\n
+Visiting Hour: 5 to 8 pm (Friday closed)\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+32. Dr. Eti Shaha\n\n
+Degree: MBBS, FCPS, DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Beside Coronation School, Khulna\n\n
+Contact Number: +8801715292641\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+33. Dr. Samsun Nahar Lucky\n\n
+Degree: MBBS, FCPS, MS (Obs and Gyne)\n\n
+Department: Gynecology\n\n
+Specialty: Gynecologist and Surgeon\n\n
+Designation: Professor\n\n
+Chamber Address: Victory Nursing and Infertility Management Center 58/1, Ahsan Ahamed Road, Khulna\n\n
+Contact Number: +8801711443587\n\n
+Visiting Hour: 5pm-8.30pm (Everyday), 9.30am-12.30pm (Friday)\n\n
+Fee: 1000 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+34. Dr. Rawshan Ara Begum\n\n
+Degree: MBBS, FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Obstetrics and Gynecologist and Laparoscopic Surgeon\n\n
+Designation: Professor\n\n
+Chamber Address: Specialized Hospital and Shah Diagnostic Center, A.R Complex, 62, Outer Bypass Road, Sonadanga, Khulna\n\n
+Contact Number: +8801781464840\n\n
+Visiting Hour: 2pm-6pm and 7pm-10pm (Close Friday)\n\n
+Fee: 1000 Taka
+
+" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

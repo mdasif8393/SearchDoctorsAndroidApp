@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. Sayed Mozammail Hossain\n\n
+Degree: FCPS (Surgery), Member-ASBS(UMA), International Brain Cancer Specialist.\n\n
+Department: Oncology\n\n
+Specialty: Oncology\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801999099099\n\n
+Visiting Hour: 5 pm - 8 pm
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Mollah Obayedullah Baki\n\n
+Degree: MD, DMRT\n\n
+Department: : Oncology\n\n
+Specialty: : Oncology\n\n
+Designation: Professor\n\n
+Chamber Address: Road no: 01 (1st phase), House no. 107, Sonadhanga Residential Area, Khulna\n\n
+Contact Number: +01710941199\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 700 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. Mrinal Kanti Sarker\n\n
+Degree: MBBS, M-Phil\n\n
+Department: Oncology\n\n
+Specialty: Oncology, Radiotherapy\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801779135828\n\n
+Visiting Hour: 9.30 AM to 11.30 AM 1.00PM to 2.00 PM\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Md. Mukitul Huda\n\n
+Degree: MBBS, M.Phil (Oncology), FCPS (Oncology)\n\n
+Department: Oncology\n\n
+Specialty: Oncology, Radiotherapy\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Labaid Limited (Diagnostic) Khulna, A/5 Majid Sharani, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 800 Taka
+" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

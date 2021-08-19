@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. Swadesh Kumar Chokkroborty\n\n
+Degree: MBBS, MD (Cardiology)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology\n\n
+Designation: Junior Consultant\n\n
+Chamber Address: Doctors Point Specialized Hospital 49, KDA Avenue, Sadar, Khulna\n\n
+Contact Number: +8801795383802\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Evana Nasrin\n\n
+Degree: MBBS (DMC), BCS (Health) , FCPS (Child)\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: 5.00PM TO 9.00PM Closed on Friday\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. Anup Kumar Dey\n\n
+Degree: M.B.B.S (Dhaka), P.G.T (Child), D.S.H, P.G.P.N (Boston America), F.R.S.H (London)\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Children’s Health Services, Hazi Mohsin Road, Khulna, (Oposite to the 10th floor building)\n\n
+Contact Number: +8801973400550\n\n
+Visiting Hour: 6.00 pm to 9.00 pm Wednesday and Friday Close\n\n
+Fee: 500 Taka
+
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Sharafat Hossain\n\n
+Degree: MBBS, DCH, FCPS (Paediatrics)\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Compare Diagnostic Center. Khulna . 29 (2nd Floor), Shamsur Rahman Road, ShantiDham Mor, Sadar, Khulna, Bangladesh\n\n
+Contact Number:\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5. Dr. Nishat Sultana\n\n
+Degree: MBBS, DGO, FCPS (Gynecology), Special training in the treatment of infertility (PG)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Insaf Nursing Home and Diagnostic, Khulna\n\n
+Contact Number: +8801984459755\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 500 Taka
+
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6. Dr. Ismatara Bina\n\n
+Degree: MD (hon’s) Russia, DGO, MCPS, FCPS (Obs and Gynae), MRCOG (London)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Khalishpur Clinic and Diagnostic Complex, House No. 41, Road 101, Khalishpur, Khulna\n\n
+Contact Number: +88041761637\n\n
+Visiting Hour: 9.00 am to 1.00 pm and 5.00 pm to 7.00 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7. Dr. Md. Rafiqul Islam\n\n
+Degree: MBBS, MCPS (SURGERY), FCPS( Surgery)\n\n
+Department: Surgery\n\n
+Specialty: General Surgery Specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour:\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+8. Dr. S.M. Golam Azam\n\n
+Degree: MBBS, MS(Surgery)\n\n
+Department: Surgery\n\n
+Specialty: General Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+9. Dr. Showkat Ali\n\n
+Degree: MBBS, FCPS (Surgery)\n\n
+Department: Orthopedics\n\n
+Specialty: General Surgery Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 500 TK
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+10. Dr. Tahmina Khatun\n\n
+Degree: MBBS, MCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Junior Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+11. Dr. Shudipto Saha\n\n
+Degree: MBBS, D-Card, CCD (Barden), BCS (Health)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 4.00 pm to 6.00 pm (Saturday to Thursday)\n\n
+Fee: 600 Taka\n\n
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+12. Dr. M. A. Ali\n\n
+Degree: MBBS, D-Card (Japan)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 3.00 pm to 5.00 pm Saturday to Thursday\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+13. Dr. Rana Kumar Biswas\n\n
+Degree: FCPS (Child) , DCH (DU), MD(Child Gestro) BSMMU\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Sandhani Clinic and Diagonistic Comple, R.R.J Tower, 1, Babu Khan Road, Khulna (North Side of Commerce, Khulna\n\n
+Contact Number: +8801302428637\n\n
+Visiting Hour: 5.00PM TO 9.00PM Friday Close\n\n
+Fee: 600 Taka
+
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+14. Dr. Uttam Kumar Dewan\n\n
+Degree: MBBS, BCS (Health), DCH(DMC)\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Fatima Hospital and Diagnostic Center, 302, Khanjahan Ali Road, Royal Road, Khulna\n\n
+Contact Number: +8801909141532\n\n
+Visiting Hour: 4.00 pm to 8.00 pm Closed on Friday\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+15. Dr. M.A. Samad\n\n
+Degree: MBBS, DDV (DU)\n\n
+Department: Skin\n\n
+Specialty: Skin and Sex\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +8801711298607\n\n
+Visiting Hour: 6.00 pm to 8.00 pm
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+16. Dr. G.M. Abu Zafar\n\n
+Degree: MBBS, FCPS-EYE\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 10.00 am to 12.00 am Saturday to Thursday\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+17. Dr. B.M. Saifur Rahman\n\n
+Degree: MBBS, DO MCPS (EYE), Training on Phaco Surgery\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: Eye Pavilion and Phaco Center, Opposite to City Medical College, Moylapota Mor, Khulna\n\n
+Contact Number: +8801816340840\n\n
+Visiting Hour: 5.00 pm to 8.00 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+18. Dr. Mukti Kaniz Fatema (Papri)\n\n
+Degree: MBBS, BCS (Health), FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Labcon Diagnostic Center, 63, Ahasan Ahmed Road, Khulna\n\n
+Contact Number: +8801779939990\n\n
+Visiting Hour: 2.00 pm to 3.00 pm and 6.30 pm to 9.00 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+19. Dr. Fouzia Begum\n\n
+Degree: MBBS, FCPS (Gainee and position)\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801908959613\n\n
+Visiting Hour: 2.30 pm to 5.30 pm (Closed on Friday)\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+20. Dr. Anjuman Ara\n\n
+Degree: MBBS, MCPS, DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801999099099\n\n
+Visiting Hour: 5.00 pm to 8.00 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+21. Dr. M A Hannan\n\n
+Degree: MBBS (Dhaka), D.T.M and H(Bangkok)\n\n
+Department: Medicine\n\n
+Specialty: Medicine\n\n
+Designation: Consultant\n\n
+Chamber Address: Garib Newaz Clinic, 302, K.D.A Avenure, Khulna\n\n
+Contact Number: +8801711295460\n\n
+Visiting Hour: Saturday to Thursday: 10:00 am To 02:00 pm and 06:00 pm To 08:00 pm\n\n
+Fee: 600 Taka
+
+" /><TextView
+        android:background="@drawable/textviewshape"
+        android:layout_margin="30px"
+        android:padding="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#A52A2A"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:text="
+22. Dr. Md. Mostafujur Rahaman\n\n
+Degree: MBBS, D-Ortho(DU)\n\n
+Department: Orthopedics\n\n
+Specialty: Orthopedics Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +8801711298607\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+23. Dr. Utpol Kumar Chandro\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Endocrinology\n\n
+Specialty: Medicine, Diabetes , Cardiology, Thyroid\n\n
+Designation: Consultant\n\n
+Chamber Address: United Diagnostic and Consultation Center, 3, South Central Road, Khulna (Opposite government Pioneer Women’s College)\n\n
+Contact Number: +8801772473060\n\n
+Visiting Hour: 4 Pm to 9 Pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+24. Dr. Mahfuja Ferdous\n\n
+Degree: MBBS, DGO(OBS and Gynae)\n\n
+Department: Gynecology\n\n
+Specialty: Gynecologist\n\n
+Designation: Consultant\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+25. Mostafizur Rahman\n\n
+Degree: MBBS, D-Ortho\n\n
+Department: Orthopedics\n\n
+Specialty: Orthopedics Surgery\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +88041733913\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" /><TextView
+        android:background="@drawable/textviewshape"
+        android:layout_margin="30px"
+        android:padding="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#A52A2A"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:text="
+26. Dr. Sheikh Mozammel Hossain\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+27. Dr. Mohammad Showkat Haider\n\n
+Degree: MBBS, DTM and H, DDV (Bangkok)\n\n
+Department: Dermatology\n\n
+Specialty: Dermatology Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: : 5 pm - 8 pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+28. Dr. Mithun Debnath\n\n
+Degree: MBBS (KMC), BCS (Health), MD (Nephrology, DMC)\n\n
+Department: Nephrology\n\n
+Specialty: Nephrology Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour:\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+29. Dr. Ratan Lal Dutt Bunik\n\n
+Degree: M.B.B.S MD (Dermatology)\n\n
+Department: Skin\n\n
+Specialty: Dermatology, Allergology, Sex\n\n
+Designation: Junior Consultant\n\n
+Chamber Address: United Diagnostic and Consultation Center, 3, South Central Road, Khulna (Opposite government Pioneer Women’s College)\n\n
+Contact Number: +8801734957733\n\n
+Visiting Hour: 4.00 pm to 8.00 pm (Friday off)\n\n
+Fee: 700 Taka
+
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+30. Dr. Sheikh Motiar Rahman\n\n
+Degree: MBBS, DLO (DU)\n\n
+Department: ENT\n\n
+Specialty: ENT\n\n
+Designation: Consultant\n\n
+Chamber Address: Garib Newaz Clinic, 302, K.D.A Avenure, Khulna\n\n
+Contact Number: +8801715292222\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+31. Dr. Sanjida Huda Sweety\n\n
+Degree: MBBS, BCS (Health), FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Garib Newaz Clinic, 302, K.D.A Avenure, Khulna\n\n
+Contact Number: +8801795365715\n\n
+Visiting Hour: 2.00 pm to 4.00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+32. Dr. Mafuja Ferdaus\n\n
+Degree: MBBS, DGO\n\n
+Department: Gynecology\n\n
+Specialty: Gynaecologist, Obstetrician and Surgeon\n\n
+Designation: Consultant\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +8801711298607\n\n
+Visiting Hour: 9.00 am to 1.00 pm and 3.00 pm 5.00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+33. Dr. Md. Sirajul Islam\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Islami Bank Hospital, 42, Khan Jahan Ali Road, Khulna\n\n
+Contact Number: +8801711298607\n\n
+Visiting Hour: Saturday to Thursday : 04:00 pm To 09:00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="
+34. Dr. M. A. Latif\n\n
+Degree: MBBS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: 139, Sher-e-Bangla Road, Moilapota Mor, Khulna\n\n
+Contact Number: +8801674625305\n\n
+Visiting Hour: Saturday to Thursday : 10:00 am To 01:00 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+35. Dr. Md. Enamul Kobir\n\n
+Degree: MBBS, MD (Nephrology)\n\n
+Department: Nephrology\n\n
+Specialty: Nephrology Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Care Digital Diagnostic and Consultation Center 30, Shamsur Rahman Road (Shanthamham Border), Khulna\n\n
+Contact Number: +8801710778606\n\n
+Visiting Hour: 2.00PM TO 8.00PM\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+36. Dr. Anup Roy Chowdhary\n\n
+Degree: MBBS, MS (Urology) (BSMMU)\n\n
+Department: Nephrology\n\n
+Specialty: Nephrology Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Labcon Diagnostic Center, 63, Ahasan Ahmed Road, Khulna\n\n
+Contact Number: +8801779939990\n\n
+Visiting Hour: Thursday and Friday\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+37. Dr. Sk Nishat Abdullah\n\n
+Degree: FCPS( Surgery), FCPS ( Plastic and Re Constrictive) Surgery\n\n
+Department: Surgery\n\n
+Specialty: Plastic Surgry Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 2.30 PM TO 3.30 PM\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+38. Dr. S M Abdul Awal\n\n
+Degree: MBBS, BCS (Health), MD (Neurology)\n\n
+Department: Medicine\n\n
+Specialty: Neuro Medicine specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour:\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+39. Dr. Nayar Islam(Bindu)\n\n
+Degree: MBBS, MCPS (Gynae) FCPS (Gynae), Diploma In Reproductive Health ( Lund University, Sweden)\n\n
+Department: Gynecology\n\n
+Specialty: Gynecology Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: 5 pm - 8 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+40. Dr. Md. Sheikh Younus Ali\n\n
+Degree: MBBS, BCS, DDV\n\n
+Department: Skin\n\n
+Specialty: Skin and Dermatologist Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+41. Dr. Sheikh Abdullah Al Mamun\n\n
+Degree: MBBS, BCS, FCPS (Medicine)\n\n
+Department: Medicine\n\n
+Specialty: Medicine Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Doctors Point Specialized Hospital 49, KDA Avenue, Sadar, Khulna\n\n
+Contact Number: +8801913607805\n\n
+Visiting Hour:\n\n
+Fee: 700 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+42. Dr. Kazi Md. Anisuzzaman\n\n
+Degree: MBBS, FCPS (Medicine), MD (Cardiology)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology\n\n
+Designation: Chief Consultant\n\n
+Chamber Address: Fortis Escorts Heart Institute, A-17, Majid Sarani, Sonadanga, Khulna\n\n
+Contact Number: +88017777755153\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+43. Dr. Md. Mahbubul Haque\n\n
+Degree: MBBS, ACPS (Medicine), MD (Cardiology)\n\n
+Department: Cardiology\n\n
+Specialty: Cardiology\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Fortis Escorts Heart Institute, A-17, Majid Sarani, Sonadanga, Khulna\n\n
+Contact Number: +8801777755153\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+44. Dr. Shek Mosiur Rahman (Dipu)\n\n
+Degree: MBBS, BCS (Health) , MD (Child), BSMMU\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801999099099\n\n
+Visiting Hour: Sunday, Tuesday, Wednesday 4.00 pm to 9.00 pm and Saturday, Monday 8.00 pm to 10.00 pm\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+45. Dr. Mohammod Sayed Ali\n\n
+Degree: Qualification: MBBS, MS (EYE)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: 1, South Central Road, Khulna\n\n
+Contact Number: +8801913118126\n\n
+Visiting Hour: 4 pm to 9 am (Saturday to Tuesday)\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+46. Dr. Md. Tawhid-Uz-Zaman\n\n
+Degree: MBBS, MCPS (EYE) DO (DU)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: : 9.00 am to 9.00 pm\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+47. Dr. S. Faisal Ahmed\n\n
+Degree: MBBS, DO, MCPS, FCPS (Eye)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: 9.00 am to 9.00 pm\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+48. Dr. Abdul Kader\n\n
+Degree: MBBS, MS(Orthopedics)\n\n
+Department: Orthopedics\n\n
+Specialty: Orthopedics Surgery\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 4 pm - 8 pm\n\n
+Fee: 800 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+49. Dr. Sattyajit Mondal\n\n
+Degree: MBBS, DO, FCPS (Eye)\n\n
+Department: Eye\n\n
+Specialty: Retina, Laser Specialist, Phaco Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801964955933\n\n
+Visiting Hour: 9.00AM TO 9.00PM\n\n
+Fee: 800 Taka
+
+" />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1.	Dr. S K Bollov\n\n
+Degree: ENT\n\n
+Department: ENT Speciaist, Head and Neck Surgeon\n\n
+Specialty:\n\n
+Designation: Professor\n\n
+Chamber Address: Top Choice Diagnostic Center, 37, Samsur Rahman Road, Khulna\n\n
+Contact Number: +8801720500437\n\n
+Visiting Hour: Saturday to Thursday 11:00 am To 01:00 pm and 06:00 pm To 08:00 pm\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2.	Dr. MD. Kamruzzaman\n\n
+Degree: MBBS, FCPS, MS (ENT)\n\n
+Department: ENT\n\n
+Specialty: ENT Specialist\n\n
+Designation: Associate Professor\n\n
+Chamber Address: 10 Fire Bridged road (Govt. pioneer college-এর পূর্ব পাশে), Khulna\n\n
+Contact Number: +8801921919109\n\n
+Visiting Hour: 5 pm – 8 pm\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3.	Dr. Monoj Kumar Boso\n\n
+Degree: MBBS, MPH, DO, Fellow WHO (India, Indonesia)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Micro Surgeon\n\n
+Designation: Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: 9.00 am to 9.00 pm\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4.	Dr. M A Maleque Khan\n\n
+Degree: Qualification: MBBS, FCPS (EYE)\n\n
+Department: Eye\n\n
+Specialty: Eye Speciaist\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: 9.00 am to 9.00PM\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5.	Professor Dr. Jalal Ahmed\n\n
+Degree: MBBS, FCPS, FICS\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery, Lensx, Lasik, Glaucoma Surgeon\n\n
+Designation: Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: 9.00 am to 9.00 pm\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6.	Dr. Samsun Nahar Lucky\n\n
+Degree: MBBS, FCPS, MS (Obs and Gyne)\n\n
+Department: Gynecology\n\n
+Specialty: Gynecologist and Surgeon\n\n
+Designation: Professor\n\n
+Chamber Address: Victory Nursing and Infertility Management Center 58/1, Ahsan Ahamed Road, Khulna\n\n
+Contact Number: +8801711443587\n\n
+Visiting Hour: 5pm-8.30pm (Everyday), 9.30am-12.30pm (Friday)\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7.	Dr. Rawshan Ara Begum\n\n
+Degree: MBBS, FCPS\n\n
+Department: Gynecology\n\n
+Specialty: Obstetrics and Gynecologist and Laparoscopic Surgeon\n\n
+Designation: Professor\n\n
+Chamber Address: Specialized Hospital and Shah Diagnostic Center, A.R Complex, 62, Outer Bypass Road, Sonadanga, Khulna\n\n
+Contact Number: +8801781464840\n\n
+Visiting Hour: 2pm-6pm and 7pm-10pm (Close Friday)\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+8.	Dr. Sudipta Kumar Mukherjee\n\n
+Degree: MBBS, MS (Neurosurgery), Fellow of American Association of Neurological Surgeon\n\n
+Department: Neurology\n\n
+Specialty: Brain and spinal surgery\n\n
+Designation:\n\n
+Chamber Address: Gazi Medical College Hospital, A.19-21 Mojid Sarani, Sonadanga Khulna\n\n
+Contact Number: +8801930338193\n\n
+Visiting Hour: Thursday to Friday at 7:00 pm\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+9.	Prof. Dr. Ibrahim Kholil\n\n
+Degree: MBBS, MS (Ortho)\n\n
+Department: Orthopedics\n\n
+Specialty: Orthopedics Surgeon\n\n
+Designation: Professor\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour:\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+10.	Dr. Syeed Kadir MD\n\n\n
+Degree: MBBS, MS, FICS, FACS\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour:\n\n
+Fee: 1000 Taka
+" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

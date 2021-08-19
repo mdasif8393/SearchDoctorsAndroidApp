@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. Abdulla Al Mamun\n\n
+Degree: B.D.S\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery\n\n
+Designation:\n\n
+Chamber Address: Rokeya Dental Care, 7/1, South Central Road, Khulna\n\n
+Contact Number: +8801798876944\n\n
+Visiting Hour: Saturday to Monday 5 Pm-9 Pm Wednesday to Thursday\n\n
+Fee: 400 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. Umme Saima (Sunny)\n\n
+Degree: BDS(DU), PGT(OMFS) PG Hospital Dhaka,CRP(DMCH)\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery\n\n
+Designation:\n\n
+Chamber Address: Tasnim Dental Care, Sheik Para, Khulna\n\n
+Contact Number: +8801911740267\n\n
+Visiting Hour: 11 am to 1 pm and 6 pm to 9 pm\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. Sheikh Arafat Ul Sahid (Roni)\n\n
+Degree: BDS (Dhaka)\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery\n\n
+Designation:\n\n
+Chamber Address: Lab AId Ltd (Diagonstic), KDA Plote No-A/5, Mojid Sorone, Sonadanga, Khulna\n\n
+Contact Number: +8801766661020\n\n
+Visiting Hour: 9.00AM TO 2.00PM 5.00PM TO 9.00PM Closed on Friday\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4. Dr. Md. Nazmus Sadat\n\n
+Degree: BDS (DU) PGT\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery\n\n
+Designation:\n\n
+Chamber Address: City Imazing center, 35, KDA Avenue (Khalim Chember), Khulna\n\n
+Contact Number: +8801716717889\n\n
+Visiting Hour:\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5. Dr. Ashim Kumar Halder\n\n
+Degree: BDS (DU), MPH\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery\n\n
+Designation:\n\n
+Chamber Address: Garib Newaz Clinic, 302, K.D.A Avenure, Khulna\n\n
+Contact Number: +8801911417859\n\n
+Visiting Hour: 11 Am to 1 Pm and 6 Pm to 8.30 Pm\n\n
+Fee: 600 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6. Dr. Tahmina Ahamed\n\n
+Degree: BDS (DU) PGT (SSMCH)\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery, Maxillofacial Surery\n\n
+Designation:\n\n
+Chamber Address: Evolution Dental Chember, 30, Hazi Mohsin Road, Khulna\n\n
+Contact Number: +8801712149400\n\n
+Visiting Hour: 3.00 pm to 6.00 pm (Friday Close)\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7. Dr. Tahsir Maksoom\n\n
+Degree: BDS (DU), Honorary (BMCH),Maxillo Facial Surgery M.ph (on Course) UK\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery, Maxillofacial Surery\n\n
+Designation:\n\n
+Chamber Address: Evolution Dental Chember, 30, Hazi Mohsin Road, Khulna\n\n
+Contact Number: +8801712149400\n\n
+Visiting Hour: 3.00 PM To 6.00PM Friday Close\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+            Dr. Shaikhan Ahmed Akash\n\n
+8. Degree: B.D.S\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery\n\n
+Designation:\n\n
+Chamber Address: New Modern Dental Care, 82, Sher-e-Bangla Road, Amtola, Khulna\n\n
+Contact Number: +8801923695306\n\n
+Visiting Hour: 300 Taka\n\n
+Fee:
+
+" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

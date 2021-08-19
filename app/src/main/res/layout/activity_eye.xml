@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1. Dr. S.M. Kamruzzaman\n\n
+Degree: MBBS (Dhaka), CCD (BARDEM), PGT (EYE)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist\n\n
+Designation:\n\n
+Chamber Address: Gazi Medical College Hospital, A.19-21 Mojid Sarani, Sonadanga Khulna\n\n
+Contact Number: +8801797074626\n\n
+Visiting Hour: 9.00 am to 2.00 pm ( Friday off)\n\n
+Fee: 500 Taka
+
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2. Dr. G.M. Abu Zafar\n\n
+Degree: MBBS, FCPS-EYE\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Khulna City Medical College Hospital, 25-26, KDA AVENUE, KHULNA\n\n
+Contact Number: +8801989995021\n\n
+Visiting Hour: 10.00 am to 12.00 am Saturday to Thursday\n\n
+Fee: 600 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3. Dr. B.M. Saifur Rahman\n\n
+Degree: MBBS, DO MCPS (EYE), Training on Phaco Surgery\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: Eye Pavilion and Phaco Center, Opposite to City Medical College, Moylapota Mor, Khulna\n\n
+Contact Number: +8801816340840\n\n
+Visiting Hour: 5.00 pm to 8.00 pm\n\n
+Fee: 600 Taka
+" /><TextView
+        android:background="@drawable/textviewshape"
+        android:layout_margin="30px"
+        android:padding="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#A52A2A"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:text="
+4. Dr. Subroto Kumar Biswas\n\n
+Degree: MBBS, FCPS (EYS)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist\n\n
+Designation:\n\n
+Chamber Address: Khulna Eye Hospital and Ledger Center, 53, KDA Avenue, Shekhpara, Khulna\n\n
+Contact Number: +8801732700290\n\n
+Visiting Hour: 10 am to 8 pm\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5. Dr. Mohammod Sayed Ali\n\n
+Degree: Qualification: MBBS, MS (EYE)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: 1, South Central Road, Khulna\n\n
+Contact Number: +8801913118126\n\n
+Visiting Hour: 4 pm to 9 am (Saturday to Tuesday)\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6. Dr. Md. Tawhid-Uz-Zaman\n\n
+Degree: MBBS, MCPS (EYE) DO (DU)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist\n\n
+Designation: Senior Consultant\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: : 9.00 am to 9.00 pm\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7. Dr. Md. Syed Ali\n\n
+Degree: MBBS, MS (Eye) Master in Eye Surgery\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: 9.00 am to 9.00 pm\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+8. Dr. S. Faisal Ahmed\n\n
+Degree: MBBS, DO, MCPS, FCPS (Eye)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: 9.00 am to 9.00 pm\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+9. Dr. Abul Kalam Azad\n\n
+Degree: M.C.P.S, D.O F.C.P.S (Eye)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist\n\n
+Designation:\n\n
+Chamber Address: Vision Eye Care, 1, Saath Central Road, Bylen (first lane before Pioneer College) Khulna\n\n
+Contact Number: +8801797291077\n\n
+Visiting Hour: 5.00 pm to 8.00 pm (Friday Close)\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+10. Dr. Manoj Kumar Das\n\n
+Degree: MBBS, DO\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist and Surgeon\n\n
+Designation:\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+11. Dr. Kazi Nasimul Haque\n\n
+Degree: MBBS, DO\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour:\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+12. Dr. Sattyajit Mondal\n\n
+Degree: MBBS, DO, FCPS (Eye)\n\n
+Department: Eye\n\n
+Specialty: Retina, Laser Specialist, Phaco Surgery\n\n
+Designation: Consultant\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801964955933\n\n
+Visiting Hour: 9.00AM TO 9.00PM\n\n
+Fee: 800 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+13. Dr. Monoj Kumar Boso\n\n
+Degree: MBBS, MPH, DO, Fellow WHO (India, Indonesia)\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Micro Surgeon\n\n
+Designation: Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: 9.00 am to 9.00 pm\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+14. Dr. M A Maleque Khan\n\n
+Degree: Qualification: MBBS, FCPS (EYE)\n\n
+Department: Eye\n\n
+Specialty: Eye Speciaist\n\n
+Designation: Associate Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: 9.00 am to 9.00PM\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+15. Professor Dr. Jalal Ahmed\n\n
+Degree: MBBS, FCPS, FICS\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery, Lensx, Lasik, Glaucoma Surgeon\n\n
+Designation: Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour: 9.00 am to 9.00 pm\n\n
+Fee: 1000 Taka
+" />
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+16. Dr. Syeed Kadir MD\n\n
+Degree: MBBS, MS, FICS, FACS\n\n
+Department: Eye\n\n
+Specialty: Eye Specialist, Phaco Surgery\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Bangladesh Eye Hospital, 9 B, Majid Sharani, Shibbari, Khulna\n\n
+Contact Number: +8801799209075\n\n
+Visiting Hour:\n\n
+Fee: 1000 Taka
+" />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

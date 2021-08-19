@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.redmibook.searchdoctors">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/doctor"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/doctor"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ThreeHundredTakaActivity" />
+        <activity android:name=".FourHundredTakaActivity" />
+        <activity android:name=".FiveHundredTakaActivity" />
+        <activity android:name=".SixHundredTakaActivity" />
+        <activity android:name=".SevenHundredTakaActivity" />
+        <activity android:name=".EightHundredTakaActivity" />
+        <activity android:name=".TenHundredTakaActivity" />
+        <activity android:name=".MedicineActivity" />
+        <activity android:name=".GaynecologyActivity" />
+        <activity android:name=".SurgeryActivity" />
+        <activity android:name=".OrthopedicsActivity" />
+        <activity android:name=".ChildActivity" />
+        <activity android:name=".SkinActivity" />
+        <activity android:name=".DentalActivity" />
+        <activity android:name=".EntActivity" />
+        <activity android:name=".EyeActivity" />
+        <activity android:name=".CardiologyActivity" />
+        <activity android:name=".GastroenterologyActivity" />
+        <activity android:name=".OncologyActivity" />
+        <activity android:name=".NeurologyActivity" />
+        <activity android:name=".RheumatologyActivity" />
+        <activity android:name=".EndocrinologyActivity" />
+        <activity android:name=".UrologyActivity" />
+        <activity android:name=".HepatologyActivity" />
+        <activity android:name=".ProfessorActivity" />
+        <activity android:name=".AssociateProfessorActivity" />
+        <activity android:name=".AssistantProfessorActivity" />
+        <activity android:name=".ConsultantActivity" />
+        <activity android:name=".MedicalOfficerActivity"></activity>
+    </application>
+
+</manifest>

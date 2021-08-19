@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainview"
+
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+1.  Dr. Md. Barkat Ali\n\n
+Degree: MBBS (Dhaka), DCH, FPCC (India), MAP (USA)\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Assistant Professor\n\n
+Chamber Address: Gazi Medical College Hospital, A.19-21 Mojid Sarani, Sonadanga Khulna\n\n
+Contact Number: +8801797074628\n\n
+Visiting Hour: 9.00 am to 2.00 pm\n\n
+Fee: 300 Taka
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+2.  Dr. Saiful Arefin\n\n
+Degree: M.B.B.S, P.G.T (Child) PGPN (Boston) USA\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Medical Officer\n\n
+Chamber Address: J.B. Pharmacies, Notun Rasta, B.I.D.C Road, Khalishpur, Khulna\n\n
+Contact Number: +8801745-538953\n\n
+Visiting Hour: 5 pm to 10 pm\n\n
+Fee: 300 Taka
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+3.  Dr. Syed Imtiaz Ahmed\n\n
+Degree: MBBS(Dhaka) PGT( child) BMDC)\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation:\n\n
+Chamber Address: Labcon Diagnostic Center, 63, Ahasan Ahmed Road, Khulna\n\n
+Contact Number: +8801781773300\n\n
+Visiting Hour: Sunday to Thurs day 6 pm to 8 pm\n\n
+Fee: 300 Taka
+
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+4.  Dr. Sk. Munir Ahamed\n\n
+Degree: MBBS, PGT (Child), PGPN (USA)\n\n
+Department: Pediatric\n\n
+Specialty: Child Specialist\n\n
+Designation: Senior Medical Officer\n\n
+Chamber Address: Labcon Diagnostic Center, 63, Ahasan Ahmed Road, Khulna\n\n
+Contact Number: +8801911646119\n\n
+Visiting Hour: 2.30 pm to 3.30 pm Closed On Friday\n\n
+Fee: 300 Taka
+
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+5.  Dr. Shaikhan Ahmed Akash\n\n
+Degree: B.D.S\n\n
+Department: Dental\n\n
+Specialty: Dental Surgery\n\n
+Designation:\n\n
+Chamber Address: New Modern Dental Care, 82, Sher-e-Bangla Road, Amtola, Khulna\n\n
+Contact Number: +8801923695306\n\n
+Visiting Hour: 300 Taka\n\n
+Fee:
+
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+6.  Dr. Salina Yasmin\n\n
+Degree: MBBS, Training – C.M.U\n\n
+Department: Gynecology\n\n
+Specialty: Gynecology\n\n
+Designation:\n\n
+Chamber Address: Shapla Clinic 29, Sher-E-Bangla Road, Moylaputa, Khulna\n\n
+Contact Number: +8801624826650\n\n
+Visiting Hour: 8 am to 12 pm  5 pm to 9 pm\n\n
+Fee: 300 Taka
+
+" />
+
+        <TextView
+            android:background="@drawable/textviewshape"
+            android:layout_margin="30px"
+            android:padding="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#A52A2A"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            android:text="
+7.  Dr. Esrat Jahan\n\n
+Degree: MBBS\n\n
+Department: Gynecology\n\n
+Specialty: Gynecologist\n\n
+Designation: Medical Officer\n\n
+Chamber Address: Hamim Medical Hal, Khalishur Hamim Medical Hal, Khalishur\n\n
+Contact Number: +8801754807666\n\n
+Visiting Hour: 5.00 pm to 8.00 pm\n\n
+Fee: 300 Taka
+
+" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainview"
+    tools:context="com.example.redmibook.searchdoctors.MainActivity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+
+        android:rowCount="5"
+        android:columnCount="2"
+        >
+
+        <Button
+            android:id="@+id/threeHundredTakaButtonId"
+            android:background="@drawable/buttonshape"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="300 TAKA"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+
+            />
+        <Button
+
+            android:id="@+id/fourHundredTakaButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="400 TAKA"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/fiveHundredTakaButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="500 TAKA"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/sixHundredTakaButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="600 TAKA"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/sevenHundredTakaButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="700 TAKA"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/eightHundredTakaButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="800 TAKA"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/tenHundredTakaButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="1000 TAKA"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+        <Button
+            android:id="@+id/professorButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Professor"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/associateProfessorButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Associate\n Professor"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/assistantProfessorButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Assistant\nProfessor"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/consultantButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Consultant"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/medicalOfficerButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Medical\nOfficer"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/medicineButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Medicine"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/gaynecologyButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Gynecology"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/surgeryButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Surgery"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/orthopedicsButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Orthopedics"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/childButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Child"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/skinButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Skin"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/dentalButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Dental"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/entButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="ENT"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/eyeButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Eye"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/cardiologyButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Cardiology"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/gastroenterologyButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Gastroe\nnterology"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/oncologyButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Oncology"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/neurologyButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Neurology"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/rheumatologyButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Rheumatology"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/endocrinologyButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Endocrinology"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+        <Button
+            android:id="@+id/urologyButtonId"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Urology"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+
+            />
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+
+
+</ScrollView>
+
+
